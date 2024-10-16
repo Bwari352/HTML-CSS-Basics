@@ -1,0 +1,135 @@
+<!doctype html>
+
+
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+
+
+    <!--    internal style-->
+
+<!--border will ever need/must have a color, thickness/width, line type-->
+<!--you can use attributes like class or id to style a specific element in specific class or id-->
+<!--whenever you want to style something using its class you call it by eg .kk-->
+<!-- avoid using integers alone when you to class   -->
+<!--whenever you want to style using id you call it by eg #one-->
+<!--border radius normally applies in clockwise direction-->
+
+
+
+
+    <style>
+
+
+        table,tr,th,td{
+            border: blueviolet 1px solid;
+            border-collapse: collapse;
+        }
+
+
+        .kk{
+            background-color: greenyellow;
+            color: red;
+        }
+
+
+        h2{
+            background-color: cadetblue;
+            border-radius: 6px 0 10px 0;
+            border-bottom: red 2px solid;
+            font-family:Arial ;
+        }
+
+
+        th{
+            width: 20%;
+        }
+
+
+
+
+
+
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+<!--tables-->
+
+
+      <h2>HTML Tables</h2>
+
+       <table>
+<!--table rows are represented by tr tags-->
+<!--th tags used to represent table headings according to the number of columns your table has -->
+<!--th tags normally make the text bold by default-->
+<!--td tag are normally the same as the number of the th tags and they do correspond with each other-->
+
+
+           <tr class="kk">
+               <th>Rank</th>
+               <th>Name</th>
+               <th>Points</th>
+               <th>Team</th>
+           </tr>
+
+
+           <tr>
+               <td>1</td>
+               <td>Mark</td>
+               <td>59</td>
+               <td>B</td>
+           </tr>
+
+
+
+           <tr>
+               <td>2</td>
+               <td>Jane</td>
+               <td>57</td>
+               <td>A</td>
+           </tr>
+
+
+           <tr>
+               <td>3</td>
+               <td>John</td>
+               <td>56</td>
+               <td>C</td>
+           </tr>
+
+
+
+
+
+
+       </table>
+
+
+
+
+
+
+</body>
+</html>
